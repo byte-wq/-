@@ -34,7 +34,7 @@ selection_sort_descending(array2)
 print("Пункт 2 — отсортировано по убыванию:", array2)
 print()
 
-# --- 3. Сортировка телефонных номеров по возрастанию ---
+#3Сортировка телефонных номеров по возрастанию
 def normal_phone(phone_str):
     digits = ''.join(ch for ch in phone_str if ch.isdigit())
     return int(digits) if digits else 0
@@ -59,3 +59,4 @@ phones = [
 print("Пункт 3 — исходный список телефонов:", phones)
 selection_sort_phones_by_numeric_value(phones)
 print("Пункт 3 — отсортировано по возрастанию:", phones)
+
